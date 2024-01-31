@@ -17,7 +17,7 @@ function Home() {
   return (
     <>
       <Hero />
-      <WritingStep className="py-5" />
+      {/* <WritingStep className="py-5" /> */}
       <Service />
       <Features />
       <Awards />

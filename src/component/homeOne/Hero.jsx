@@ -1,14 +1,13 @@
 "use client";
 import React, { useEffect, useMemo, useState } from "react";
 import bg from "@/assets/img/hero/hero-bg-1.jpeg";
-import dashboard from "@/assets/img/hero/dashboard-img.png";
-import dashboardTwo from "@/assets/img/hero/dashboard-img-2.png";
+import dashboard from "@/assets/img/hero/mainbackground.png";
 import Link from "next/link";
 import Image from "next/image";
 
 function Hero() {
   const content = useMemo(
-    () => ["Technical Writing", "Blog Writing", "AI Content"],
+    () => ["AI smart teaching ", "digital interactive 3D iFluent Unit", "VR lessons"],
     []
   );
   const [contents, setContents] = useState("");
@@ -44,19 +43,17 @@ function Hero() {
       }
     }, timeOut);
   }, [contents, content, num, jumping]);
+
   return (
     <section
       className="aai-hero-one position-relative"
-      style={{
-        background: `url(${bg.src}) no-repeat center center/cover`,
-      }}
     >
       <div className="container">
         <div className="row">
-          <div className="col-lg-12 col-xl-7">
+          <div className="col-lg-10 col-xl-7">
             <div className="aai-hero-one-content">
-              <h1 className="aai-hero-one-title">
-                High-Quality Way to Write your <br />
+              <h6 className="aai-hero-one-title">
+                Holographic 3D Educational AI technology <br />
                 <span className="gradient-text typing-animation">
                   {contents}
                   <span
@@ -71,11 +68,9 @@ function Hero() {
                 >
                   |
                 </span>
-              </h1>
+              </h6>
               <p className="aai-hero-one-desc">
-                AI Copywriting is revolutionizing the way content is created. AI
-                can create content for blogs, articles, websites, social media
-                and more.
+              Educational courses combining AI smart teaching and digital interactive 3D iFluent Unit / VR lessons
               </p>
               <div className="mt-5 d-flex flex-column flex-md-row aai-btns-group">
                 <Link href="/prices" className="aai-btn btn-pill-solid">
@@ -88,21 +83,16 @@ function Hero() {
             </div>
           </div>
           <div className="col-lg-10 col-xl-5 mt-5 mt-lg-0">
-            <div className="aai-hero-one-img">
+            <div>
               <Image
-                height={dashboard.height}
-                width={dashboard.width}
+                height={1000}
+                width={700}
+                style={{borderRadius:300}}
                 src={dashboard.src}
-                className="img-fluid aai-hero-img d-none d-xl-block"
+                // className="img-fluid aai-hero-img d-none d-xl-block"
                 alt=""
               />
-              <Image
-                height={dashboardTwo.height}
-                width={dashboardTwo.width}
-                src={dashboardTwo.src}
-                className="img-fluid aai-hero-img d-xl-none"
-                alt=""
-              />
+           
             </div>
           </div>
         </div>

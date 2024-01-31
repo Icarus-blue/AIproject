@@ -15,8 +15,8 @@ function Breadcrumb({ title }) {
         <div className="row justify-content-center">
           <div className="col-auto">
             <div className="text-center">
-              <h2 className="aai-page-title">{title}</h2>
-              <ul className="aai-breadcrumb-nav d-flex align-items-center justify-content-center">
+              {/* <h2 className="aai-page-title">{title}</h2> */}
+              {/* <ul className="aai-breadcrumb-nav d-flex align-items-center justify-content-center">
                 <li>
                   <Link
                     href="/"
@@ -48,7 +48,7 @@ function Breadcrumb({ title }) {
                     {title}{" "}
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

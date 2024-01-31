@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import logo from "@/assets/img/logo/logo-m.svg";
+import logo from "@/assets/img/logo/logo.png";
 import StickyMenu from "../../lib/StickyMenu";
 import Image from "next/image";
 
@@ -17,9 +17,10 @@ function Header() {
         <nav className="navbar navbar-expand-xl justify-content-between">
           <Link href="/">
             <Image
-              src={logo.src}
-              height={logo.height}
-              width={logo.width}
+              src={logo}
+              height={100}
+              width={100}
+              style={{ borderRadius: 50 }}
               alt=""
             />
           </Link>
@@ -40,17 +41,17 @@ function Header() {
                   </Link>
                 </div>
               </li>
-              <li className="nav-item dropdown">
+              
+              <li className="nav-item">
                 <Link
-                  className="nav-link dropdown-toggle"
+                  className="nav-link"
                   href="/"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  data-bs-auto-close="outside"
-                  aria-expanded="false"
                 >
                   Home
                 </Link>
+              </li>
+
+              {/* <li className="nav-item dropdown">
                 <div className="dropdown-menu">
                   <div className="d-flex flex-column flex-xl-row">
                     <ul>
@@ -68,7 +69,20 @@ function Header() {
                     </ul>
                   </div>
                 </div>
+              </li> */}
+
+              <li className="nav-item">
+                <Link className="nav-link" href="/thetech">
+                  The Tech
+                </Link>
               </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" href="/production">
+                  Productions
+                </Link>
+              </li>
+
               <li className="nav-item">
                 <Link className="nav-link" href="/about">
                   About Us
@@ -172,9 +186,8 @@ function Header() {
               </Link>
             </div>
             <button
-              className={`navbar-toggler d-block d-xl-none ${
-                mobileMenu ? "collapsed" : ""
-              }`}
+              className={`navbar-toggler d-block d-xl-none ${mobileMenu ? "collapsed" : ""
+                }`}
               onClick={() => setMobileMenu(!mobileMenu)}
               type="button"
               data-bs-toggle="collapse"

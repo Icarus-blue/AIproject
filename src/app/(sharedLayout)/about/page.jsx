@@ -9,7 +9,7 @@ function About() {
   return (
     <>
       <Breadcrumb title="About Us" />
-      <Service />
+      <Service  />
       <Faq />
       <Cta />
     </>

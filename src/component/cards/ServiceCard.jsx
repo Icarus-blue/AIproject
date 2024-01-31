@@ -24,6 +24,7 @@ function ServiceCard({ img, bg, title, desc, features, style }) {
                 width={img.width}
                 className="img-fluid"
                 alt=""
+                style={{borderRadius:50}}
               />
             </div>
           </div>
