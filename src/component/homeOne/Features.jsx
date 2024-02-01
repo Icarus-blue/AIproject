@@ -2,13 +2,13 @@ import React from "react";
 import ProtoTypes from "prop-types";
 import Link from "next/link";
 import bg from "@/assets/img/bg/aai-feature-bg.jpeg";
-import cardImg from "@/assets/img/features/picture1.jpeg";
-import cardImg2 from "@/assets/img/features/picture2-1.jpeg";
-import cardImg3 from "@/assets/img/features/picture3.jpg";
-import cardImg4 from "@/assets/img/features/picture4.jpeg";
-import cardImg5 from "@/assets/img/features/picture5.png";
-import cardImg6 from "@/assets/img/features/picture6.jpeg";
-import cardImg7 from "@/assets/img/features/picture7.jpeg";
+import cardImg from "@/assets/img/features/Picture1.jpeg";
+import cardImg2 from "@/assets/img/features/Picture2-1.jpeg";
+import cardImg3 from "@/assets/img/features/Picture3.jpg";
+import cardImg4 from "@/assets/img/features/Picture4.jpeg";
+import cardImg5 from "@/assets/img/features/Picture5.png";
+import cardImg6 from "@/assets/img/features/Picture6.jpeg";
+import cardImg7 from "@/assets/img/features/Picture7.jpeg";
 import FeatureCard from "../cards/FeatureCard";
 
 function Features({ className }) {
