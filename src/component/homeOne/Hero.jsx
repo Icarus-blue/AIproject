@@ -85,9 +85,9 @@ function Hero() {
           <div className="col-lg-10 col-xl-5 mt-5 mt-lg-0">
             <div>
               <Image
-                height={1000}
-                width={700}
-                style={{borderRadius:300}}
+                height={600}
+                width={400}
+                style={{borderRadius:200}}
                 src={dashboard.src}
                 // className="img-fluid aai-hero-img d-none d-xl-block"
                 alt=""

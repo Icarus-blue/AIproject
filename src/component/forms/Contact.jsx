@@ -27,8 +27,8 @@ function Contact() {
                     <div>
                       <h3 className="aai-contact-widget-title">Our Address</h3>
                       <address className="aai-contact-address">
-                        1012 Pebda Parkway, Mirpur 2 <br />
-                        Dhaka, Bangladesh
+                        London  <br />
+                        United Kingdom
                       </address>
                     </div>
                   </div>
@@ -46,10 +46,10 @@ function Contact() {
                     <div>
                       <h3 className="aai-contact-widget-title">Contact Info</h3>
                       <p className="aai-contact-support">
-                        Open a chat or give us call at
+                        Open a chat or give us call via whatsapp
                       </p>
                       <a href="tel:3108415500" className="aai-contact-address">
-                        310 841 5500
+                        +447784521315
                       </a>
                     </div>
                   </div>

@@ -10,8 +10,8 @@ function About() {
     <>
       <Breadcrumb title="About Us" />
       <Service  />
-      <Faq />
-      <Cta />
+      {/* <Faq />
+      <Cta /> */}
     </>
   );
 }

@@ -41,7 +41,7 @@ function Header() {
                   </Link>
                 </div>
               </li>
-              
+
               <li className="nav-item">
                 <Link
                   className="nav-link"
@@ -71,7 +71,7 @@ function Header() {
                 </div>
               </li> */}
 
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" href="/thetech">
                   The Tech
                 </Link>
@@ -81,7 +81,7 @@ function Header() {
                 <Link className="nav-link" href="/production">
                   Productions
                 </Link>
-              </li>
+              </li> */}
 
               <li className="nav-item">
                 <Link className="nav-link" href="/about">
@@ -91,7 +91,7 @@ function Header() {
 
               <li className="nav-item">
                 <Link className="nav-link" href="/services">
-                  Services
+                  How it works
                 </Link>
               </li>
               <li className="nav-item dropdown">
@@ -103,7 +103,7 @@ function Header() {
                   data-bs-auto-close="outside"
                   aria-expanded="false"
                 >
-                  Pages
+                  Productions
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
@@ -111,7 +111,7 @@ function Header() {
                       <span>Service Details</span>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/features" className="dropdown-item">
                       <span>Features</span>
                     </Link>
@@ -136,10 +136,10 @@ function Header() {
                     <Link href="/signup" className="dropdown-item">
                       <span>Signup Page</span>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -162,7 +162,7 @@ function Header() {
                     </Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" href="/contact">
                   Contact

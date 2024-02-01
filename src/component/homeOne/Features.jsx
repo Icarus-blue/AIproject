@@ -2,12 +2,13 @@ import React from "react";
 import ProtoTypes from "prop-types";
 import Link from "next/link";
 import bg from "@/assets/img/bg/aai-feature-bg.jpeg";
-import cardImg from "@/assets/img/features/fi-1.svg";
-import cardImg2 from "@/assets/img/features/fi-2.svg";
-import cardImg3 from "@/assets/img/features/fi-3.svg";
-import cardImg4 from "@/assets/img/features/fi-4.svg";
-import cardImg5 from "@/assets/img/features/fi-5.svg";
-import cardImg6 from "@/assets/img/features/fi-6.svg";
+import cardImg from "@/assets/img/features/picture1.jpeg";
+import cardImg2 from "@/assets/img/features/picture2-1.jpeg";
+import cardImg3 from "@/assets/img/features/picture3.jpg";
+import cardImg4 from "@/assets/img/features/picture4.jpeg";
+import cardImg5 from "@/assets/img/features/picture5.png";
+import cardImg6 from "@/assets/img/features/picture6.jpeg";
+import cardImg7 from "@/assets/img/features/picture7.jpeg";
 import FeatureCard from "../cards/FeatureCard";
 
 function Features({ className }) {
@@ -20,10 +21,9 @@ function Features({ className }) {
         <div className="row justify-content-center">
           <div className="col-xl-8">
             <div className="aai-section-title mb-3 text-center mb-5">
-              <h2 className="section-title">AI Generate content in seconds</h2>
+              <h2 className="section-title">How it works</h2>
               <p className="section-desc">
-                QumAI has a variety of features that make it the best place to
-                start trading
+                The ifluent Ai platform appears to be a highly customizable Ai-based educational tool designed to cater to the diverse learning needs and preferences of individual students.
               </p>
             </div>
           </div>
@@ -31,33 +31,38 @@ function Features({ className }) {
         <div className="row justify-content-center">
           <FeatureCard
             img={cardImg}
-            title="Plagiarism checker"
-            desc="Convert data noise intelligent for a quis lorem."
+            title="Free social media resources"
+            // desc="Subscription service"
           />
           <FeatureCard
             img={cardImg2}
-            title="Search Engine Optimization"
-            desc="Convert data noise intelligent for a quis lorem."
+            title="Subscription service"
+            // desc="Convert data noise intelligent for a quis lorem."
           />
           <FeatureCard
             img={cardImg3}
-            title="Content Generator"
-            desc="Convert data noise intelligent for a quis lorem."
+            title="Delivered monthly"
+            // desc="Convert data noise intelligent for a quis lorem."
           />
           <FeatureCard
             img={cardImg4}
-            title="Digital name generator"
-            desc="Convert data noise intelligent for a quis lorem."
+            title="3D iFluent Unit  Ai Device "
+            // desc="Convert data noise intelligent for a quis lorem."
           />
           <FeatureCard
             img={cardImg5}
-            title="Ad Targeting tips"
-            desc="Generates suggestions for ad on targeting on ad."
+            title="Mobile app-personal virtual assistant for information "
+            // desc="Generates suggestions for ad on targeting on ad."
           />
           <FeatureCard
             img={cardImg6}
-            title="Content Rewriter"
-            desc="Rewrites your text and say things different way."
+            title="The Virtual Reality (VR) Learning Environments"
+            // desc="Rewrites your text and say things different way."
+          />
+           <FeatureCard
+            img={cardImg7}
+            title="iFluent AR Headset   "
+            // desc="Rewrites your text and say things different way."
           />
         </div>
         <div

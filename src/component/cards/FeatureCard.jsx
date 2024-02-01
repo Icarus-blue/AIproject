@@ -13,7 +13,7 @@ function FeatureCard({ img, title, desc }) {
       <div className="aai-feature-box">
         <div className="aai-feature-box-inner d-flex flex-column align-items-center">
           <div>
-            <Image src={img.src} height={120} width={120}  className="aai-feature-icon " alt="" />
+            <Image src={img.src} height={150} width={200} style={{borderRadius:30}}  alt="" />
           </div>
           <h3 className="aai-feature-title">{title}</h3>
           <p className="aai-feature-desc">{desc}</p>

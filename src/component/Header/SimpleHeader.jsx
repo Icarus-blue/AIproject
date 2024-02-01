@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import logo from "@/assets/img/logo/logo-m.svg";
+import logo from "@/assets/img/logo/logo.png";
 import Image from "next/image";
 
 function SimpleHeader() {
@@ -13,8 +13,8 @@ function SimpleHeader() {
               <Link href="/">
                 <Image
                   src={logo.src}
-                  height={logo.height}
-                  width={logo.width}
+                  height={100}
+                  width={100}
                   alt=""
                 />
               </Link>

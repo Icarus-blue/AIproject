@@ -10,8 +10,8 @@ function Contact() {
     <>
       <Breadcrumb title="Contact Us" />
       <ContactCom />
-      <Faq className="py-120" />
-      <Cta />
+      {/* <Faq className="py-120" />
+      <Cta /> */}
     </>
   );
 }

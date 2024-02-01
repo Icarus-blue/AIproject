@@ -8,7 +8,7 @@ function Services() {
     <>
       <Breadcrumb title="Services" />
       <Features />
-      <Cta className="py-120" />
+      {/* <Cta className="py-120" /> */}
     </>
   );
 }

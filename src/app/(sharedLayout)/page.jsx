@@ -20,11 +20,11 @@ function Home() {
       {/* <WritingStep className="py-5" /> */}
       <Service />
       <Features />
-      <Awards />
-      <Testimonials />
+      {/* <Awards /> */}
+      {/* <Testimonials />
       <Pricing />
-      <Faq />
-      <Cta />
+      <Faq /> */}
+      {/* <Cta /> */}
     </>
   );
 }

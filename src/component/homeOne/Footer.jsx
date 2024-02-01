@@ -1,7 +1,7 @@
 import React from "react";
 import bg from "@/assets/img/bg/footer-bg.jpeg";
 import headset from "@/assets/img/icons/headset.svg";
-import logoF from "@/assets/img/logo/logo-f.svg";
+import logoF from "@/assets/img/logo/logo.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -35,7 +35,7 @@ function Footer() {
                 0462"
                     className="aai-support-number"
                   >
-                    +1 (707) 797 0462
+                    +447784521315
                   </a>
                 </div>
               </div>
@@ -67,17 +67,17 @@ function Footer() {
               <div className="aai-footer-info">
                 <Link href="/" className="aai-footer-logo">
                   <Image
-                    height={logoF.height}
-                    width={logoF.width}
+                    height={100}
+                    width={100}
                     src={logoF.src}
                     alt=""
                   />
                 </Link>
-                <p className="aai-footer-desc">
+                {/* <p className="aai-footer-desc">
                   We provide one-stop solutions for all <br />
                   IT items; your bliss is just a click away. Star Tech trusts in
                   quality client
-                </p>
+                </p> */}
                 <div className="aai-social-links d-flex">
                   <a href="http://" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-facebook-f"></i>
@@ -207,7 +207,7 @@ function Footer() {
           </div>
         </div>
         <div className="aai-footer-copyright text-center">
-          <p className="aai-copyright-text">Copyright @2023 Aai inc.</p>
+          <p className="aai-copyright-text">Copyright @2024 issued by  Icarus</p>
         </div>
       </div>
     </footer>
