@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-function AboutService() {
+function AboutService_interative3D() {
   return (
     <section className="aai-about-service">
       <div className="container">
@@ -40,4 +40,4 @@ function AboutService() {
   );
 }
 
-export default AboutService;
+export default AboutService_interative3D;

@@ -5,7 +5,7 @@ import slr1 from "@/assets/img/others/Picture3.png";
 import slr2 from "@/assets/img/others/Picture2.png";
 import Image from "next/image";
 
-function ServiceDetail() {
+function ServiceDetial_interative3D() {
   return (
     <section className="aai-service-details">
       <div className="container">
@@ -102,4 +102,4 @@ function ServiceDetail() {
   );
 }
 
-export default ServiceDetail;
+export default ServiceDetial_interative3D;

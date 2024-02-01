@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-function AboutService() {
+function AboutService_VR() {
 
     return (
         <section className="aai-about-service">
@@ -52,4 +52,4 @@ function AboutService() {
     );
 }
 
-export default AboutService;
+export default AboutService_VR;
