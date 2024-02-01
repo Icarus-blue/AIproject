@@ -14,7 +14,7 @@ function ServiceDetial_interative3D() {
             <div>
               <h2 className="section-title">Interactive 3D iFluent Unit
               </h2>
-              <p className="section-desc">The Interactive 3D iFluent Unit, available in both home and commercial versions, offers varying scales of immersive educational experiences tailored to different environments. Here's a brief overview of the two models</p>
+              <p className="section-desc">The Interactive 3D iFluent Unit, available in both home and commercial versions, offers varying scales of immersive educational experiences tailored to different environments. Here&aposs a brief overview of the two models</p>
             </div>
           </div>
         </div>
