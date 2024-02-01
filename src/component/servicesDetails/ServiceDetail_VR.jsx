@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import sl1 from "@/assets/img/others/Picture1.png";
-import slr1 from "@/assets/img/others/Picture3.png";
-import slr2 from "@/assets/img/others/Picture2.png";
+import sl1 from "@/assets/img/others/Picture6.png";
+import slr1 from "@/assets/img/others/Picture5.jpg";
+import slr2 from "@/assets/img/others/Picture4.png";
 import Image from "next/image";
 
 function ServiceDetail() {
@@ -12,8 +12,10 @@ function ServiceDetail() {
         <div className="row justify-content-between g-4 align-items-center">
           <div className="col-lg-8">
             <div>
-              <h2 className="section-title">AI Learning Analysis Engine  and  Intelligent Filter and Analysis Library
+              <h2 className="section-title">Virtual Reality (VR) Learning Environments
               </h2>
+              <p className="section-desc">The Virtual Reality (VR) Learning Environments support the iFluent AR headset acts as a gateway to this virtual space, where learning is not just seen but experienced. 
+</p>
             </div>
           </div>
         </div>

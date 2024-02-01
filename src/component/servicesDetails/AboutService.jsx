@@ -8,68 +8,33 @@ function AboutService() {
         <div className="row">
           <div className="col-12">
             <div>
-              <h2 className="section-title">About this service</h2>
+              <h2 className="section-title">Smart Profiling</h2>
               <p className="section-desc mb-4">
-                Once you know your audience, choose a topic that will resonate
-                with them. Look for trending topics in your industry or address
-                common questions or challenges your audience may be facing. Keep
-                in mind that your topic should be both interesting and relevant
-                to your audience. Writing blog content with Aao, make sure you
-                have a clear understanding of who your audience is.
+                Builds a comprehensive profile of each user, including academic history, learning habits, and performance trends.
               </p>
-              <p className="section-desc">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don&lsquo;t look even
-                slightly believable. If you are going to use a passage of Lorem
-                Ipsum, you need to be sure there isn&lsquo;t anything
-                embarrassing hidden in the middle of text.
-              </p>
-              <div className="py-5">
-                <div className="aai-about-service-cta">
-                  <div className="row justify-content-between align-items-center">
-                    <div className="col-lg-6">
-                      <div>
-                        <h3 className="aai-about-service-title">
-                          Get Ready Aai Service
-                        </h3>
-                        <p className="section-desc">
-                          We&lsquo;ve done it carefully and simply. Combined
-                          with the ingredients makes for beautiful landings.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-lg-6 mt-5 mt-lg-0">
-                      <div className="d-flex justify-content-lg-end">
-                        <Link href="/prices" className="aai-btn btn-pill-solid">
-                          Purchase Now!
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+            </div>
+            <div>
+              <h2 className="section-title">Educational Background Analysis</h2>
               <p className="section-desc mb-4">
-                Once you know your audience, choose a topic that will resonate
-                with them. Look for trending topics in your industry or address
-                common questions or challenges your audience may be facing. Keep
-                in mind that your topic should be both interesting and relevant
-                to your audience. Writing blog content with Aao, make sure you
-                have a clear understanding of who your audience is.
+                Considers previous educational experiences to contextualize current performance and expectations
               </p>
-              <p className="section-desc">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don&lsquo;t look even
-                slightly believable. If you are going to use a passage of Lorem
-                Ipsum, you need to be sure there isn&lsquo;t anything
-                embarrassing hidden in the middle of text.
+            </div>
+            <div style={{marginTop:100}}>
+              <h2 className="section-title">Content Filtering</h2>
+              <p className="section-desc mb-4">
+                Selects from a vast library of educational content to find the most suitable materials based on the user’s profile.
+              </p>
+            </div>
+            <div>
+              <h2 className="section-title">Analysis Tools</h2>
+              <p className="section-desc mb-4">
+                Utilizes advanced data analytics tools to dissect user’s data and extract actionable insights for further personalization
+                Feedback Loop: Continuously updates user’s profiles based on performance and feedback to refine the learning experience.
               </p>
             </div>
           </div>
         </div>
-      </div>
+      </div>      
     </section>
   );
 }

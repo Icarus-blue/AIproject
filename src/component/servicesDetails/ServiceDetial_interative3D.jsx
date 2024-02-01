@@ -12,8 +12,9 @@ function ServiceDetail() {
         <div className="row justify-content-between g-4 align-items-center">
           <div className="col-lg-8">
             <div>
-              <h2 className="section-title">AI Learning Analysis Engine  and  Intelligent Filter and Analysis Library
+              <h2 className="section-title">Interactive 3D iFluent Unit
               </h2>
+              <p className="section-desc">The Interactive 3D iFluent Unit, available in both home and commercial versions, offers varying scales of immersive educational experiences tailored to different environments. Here's a brief overview of the two models</p>
             </div>
           </div>
         </div>

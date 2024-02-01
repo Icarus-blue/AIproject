@@ -1,8 +1,8 @@
 import React from "react";
 import Breadcrumb from "@/component/common/Breadcrumb";
 import Cta from "@/component/homeOne/Cta";
-import ServiceDetail from "@/component/servicesDetails/ServiceDetail";
-import AboutService from "@/component/servicesDetails/AboutService";
+import ServiceDetail from "@/component/servicesDetails/ServiceDetial_interative3D";
+import AboutService from "@/component/servicesDetails/AboutService_interative3D";
 import RelatedService from "@/component/servicesDetails/RelatedService";
 
 function ServiceDetails() {
@@ -10,9 +10,9 @@ function ServiceDetails() {
     <>
       <Breadcrumb title="Service Details" />
       <ServiceDetail />
-      <AboutService />
-      <RelatedService />
-      <Cta className="py-120" />
+      <AboutService />      
+      {/* <RelatedService /> */}
+      {/* <Cta className="py-120" /> */}
     </>
   );
 }

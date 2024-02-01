@@ -107,22 +107,21 @@ function Header() {
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    {/* <Link href="/services-details" className="dropdown-item"> */}
-                      <span>Service Details</span>
-                    {/* </Link> */}
+                    <Link href="/Interactive-simulations" className="dropdown-item">
+                      <span>Interactive simulations</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/internative-3D" className="dropdown-item">
+                      <span>Interactive 3D iFluent Unit</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/VR-Learning" className="dropdown-item">
+                      <span>VR Learning Environments</span>
+                    </Link>
                   </li>
                   {/* <li>
-                    <Link href="/features" className="dropdown-item">
-                      <span>Features</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/prices" className="dropdown-item">
-                      <span>Pricing</span>
-                    </Link>
-                  </li>
-
-                  <li>
                     <Link href="/404" className="dropdown-item">
                       <span>404 Page</span>
                     </Link>
