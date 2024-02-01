@@ -107,9 +107,9 @@ function Header() {
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link href="/services-details" className="dropdown-item">
+                    {/* <Link href="/services-details" className="dropdown-item"> */}
                       <span>Service Details</span>
-                    </Link>
+                    {/* </Link> */}
                   </li>
                   {/* <li>
                     <Link href="/features" className="dropdown-item">
