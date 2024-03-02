@@ -28,14 +28,14 @@ function Footer() {
                 </div>
                 <div className="aai-support-contact">
                   <p className="aai-support-text mb-1">
-                    Have a question? Call us 24/7
+                    Have a question? please email us 24/7
                   </p>
                   <a
                     href="tel:+1707797
                 0462"
                     className="aai-support-number"
                   >
-                    +447784521315
+                    info@ifluent.co.uk
                   </a>
                 </div>
               </div>
@@ -207,7 +207,7 @@ function Footer() {
           </div>
         </div>
         <div className="aai-footer-copyright text-center">
-          <p className="aai-copyright-text">Copyright @2024 issued by  Icarus</p>
+          <p className="aai-copyright-text">Copyright@2024 Issued by iFluent Ai</p>
         </div>
       </div>
     </footer>

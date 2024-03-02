@@ -28,11 +28,11 @@ function Service() {
         "
         title="Solution– AI+3D Interactive simulations"
         features={[
-          "Ai can analyze individual learning patterns and tailor the educational content accordingly, providing personalized learning experiences. This caters to the varied learning speeds and styles of students, potentially improving outcomes and comprehension",
-          "Interactive 3D iFluent Unit is the Ai device  which features a high-resolution holographic display that projects a lifelike, three-dimensional Ai teacher. The hologram is crystal clear and immersive, providing an engaging learning experience",
-          "TWe use NLP tech and  enables the Ai to comprehend and respond to human language, allowing students to communicate with the Ai teacher as they would with a human teacher at anytime",
-          "Intelligent real-time  emotional Communication allows students to visualize and interact with these knowledge and accompany in a more tangible way, enhancing more support for deep personalization",
-          "VR environments can make learning more engaging and exciting. By turning lessons into interactive experiences, students may show increased motivation and attention, leading to better retention of information"
+          "AI-Powered Learning: The iFluent system uses AI to figure out how you learn best and then changes the lessons to fit you. This means you can learn at your own pace in a way that's best for you.",
+          "3D Teaching Device: The iFluent Unit is a device that shows you a 3D teacher who looks really lifelike. It's like having a teacher right there with you, making learning more interesting.",
+          "Talk to Your iFluent Ai Teacher: With NLP technology, you can talk to the AI teacher just like you would with a real person. This makes it easy to ask questions and get help whenever you need it.",
+          "Understands Your Feelings: The iFluent System is smart enough to understand emotions, so it can help you learn in a way that feels good for you. It's like having a teacher who really gets you.",
+          "Makes Learning Fun: Lessons come alive in 3D and VR, turning them into exciting games and activities. This can make you more interested and help you remember better."
         ]}
         style={{ flexDirection: "row-reverse" }}
       />
