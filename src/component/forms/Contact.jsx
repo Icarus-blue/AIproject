@@ -46,10 +46,10 @@ function Contact() {
                     <div>
                       <h3 className="aai-contact-widget-title">Contact Info</h3>
                       <p className="aai-contact-support">
-                        Open a chat or give us call via whatsapp
+                        Open a chat or email us
                       </p>
                       <a href="tel:3108415500" className="aai-contact-address">
-                        +447784521315
+                        info@ifluent.co.uk
                       </a>
                     </div>
                   </div>
